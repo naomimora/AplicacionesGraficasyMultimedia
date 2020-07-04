@@ -1,0 +1,60 @@
+.contenedor{
+    display: grid;
+    grid-template-areas: "buscador hola m";
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container{
+    margin: 40px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+
+.container h1{
+    margin-right: 20px;
+}
+
+.buscador input{
+    grid-area: buscador;
+    width: 280px;
+}
+
+.hola{
+    grid-area: hola;
+}
+
+.menu{
+    grid-area: m;
+    width: 270px;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 759px){
+    .contenedor{
+        grid-template-areas: "buscador m"
+                             "hola hola";
+    }
+
+    .hola{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 625px){
+    .contenedor{
+        grid-template-areas: "buscador"
+                             "m"
+                             "hola";
+        justify-content: center;
+    }
+
+    .hola{
+        text-align: center;
+    }
+}
