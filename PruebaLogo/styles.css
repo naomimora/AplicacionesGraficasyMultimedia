@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor{
+    background-color: aquamarine;
+    position: relative;
+    text-align: center;
+}
+
+.InicioSesion{
+    position: absolute;
+    bottom: 5px;
+    right: 40px;    
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+}
+
+.InicioSesion a{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    text-transform: uppercase;
+}
