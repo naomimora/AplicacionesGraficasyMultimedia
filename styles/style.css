@@ -5,6 +5,24 @@
     align-items: center;
 }
 
+.container.prueba{
+    background: blue;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container.prueba h1{
+    font-size: 2em;
+}
+
+@media screen and (max-width: 321px){
+    .container.prueba h1{
+        font-size: 2em;
+    } 
+}
+
 .container{
     margin: 40px;
     background-color: aqua;
