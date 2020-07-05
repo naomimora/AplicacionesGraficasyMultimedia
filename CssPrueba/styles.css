@@ -1,0 +1,23 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+.contenedor{
+    background-color: #992830;
+    display: grid;
+    grid-template-areas: "Logo menu buscador";
+}
+
+.logo{
+    grid-area: Logo;
+}
+
+.menu{
+    grid-area: menu;
+}
+
+.buscador{
+    grid-area: buscador;
+}
+
